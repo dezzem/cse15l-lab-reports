@@ -1,18 +1,25 @@
 # Logging Into a Coruse Specific Account in ieng6
 ---
-## Step 1 - Installing VScode
-Download VScode [here](https://code.visualstudio.com/) and run the application
->You should see a screen that looks like this:
+## Step 1 - Preparing VScode
+**Download VScode [here](https://code.visualstudio.com/) and run the application**
+>You should see a screen that looks something like this:
 
 ![image](https://user-images.githubusercontent.com/122496316/211947322-6b4d52b0-59ba-45f0-ab53-8bae70b75190.png)
 
+**For Windows users**
+* Download git [here](https://gitforwindows.org/)
+* In VScode press `Ctrl` + `~` to open a terminal
+* Press `Ctrl` + `Shift` + `P` to open the command palette
+* Type `Select Default Profile`
+* Select Git Bash
+* Click on the + in the terminal
 >Your terminal should look something like this: 
 
 ![image](https://user-images.githubusercontent.com/122496316/211946116-17c4d8ea-7a3b-4e20-9dcd-50c1d9d03237.png)
 
 Once you are in the bash terminal go onto the next step
 
-## Step 2 - Remotely Connecting
+## Step 2 - Connecting Remotely
 Before completing this step make sure you know your CSE15L account and password
 
 If you don't know you can look it up [here](https://sdacs.ucsd.edu/~icc/index.php)
@@ -22,4 +29,4 @@ If you don't know you can look it up [here](https://sdacs.ucsd.edu/~icc/index.ph
 * Enter your password
 > Note that as a security feature the terminal will not display your password as you are typing it in
 
-## Step 3 - Trying Some Commands
+## Step 3 - Testing Commands
