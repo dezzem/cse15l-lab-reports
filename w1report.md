@@ -17,16 +17,22 @@
 
 ![image](https://user-images.githubusercontent.com/122496316/211946116-17c4d8ea-7a3b-4e20-9dcd-50c1d9d03237.png)
 
-Once you are in the bash terminal go onto the next step
+**Once you are in the bash terminal go onto the next step**
 
 ## Step 2 - Connecting Remotely
-Before completing this step make sure you know your CSE15L account and password
+**Before completing this step make sure you know your CSE15L account and password**
 
-If you don't know you can look it up [here](https://sdacs.ucsd.edu/~icc/index.php)
+**If you don't know you can look it up and set your password [here](https://sdacs.ucsd.edu/~icc/index.php)**
 
 * In the bash terminal insert in this command: `ssh cs15lwi23XXX@ieng6.ucsd.edu` (replace XXX with your unique 3 character code)
 * Type `yes` if prompted
 * Enter your password
 > Note that as a security feature the terminal will not display your password as you are typing it in
+
+> You should see a message like this:
+
+**If you did everything correctly you're now connected to a computer in the CSE basement**
+
+>Your terminal should look something like this:
 
 ## Step 3 - Testing Commands
