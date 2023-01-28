@@ -40,11 +40,11 @@
 **Now that you're in test out some commands and look at the results**
 
 As of now you should know 
-* `cd` Which changes the current directory
+* `cd` Which changes the current directory (Won't give an output if it doesn't have an error)
 * `ls` Which lists the current files and subdirectories of the current directory (It should output the files in your directory)
 * `pwd` Which prints out any applicable text within your directory (It should output out any text files in your directory)
-* `mkdir` Which makes a new directory with the given name
-* `cp` Which copies the files in the directory
+* `mkdir` Which makes a new directory with the given name (Will give an error if you don't specify the directory)
+* `cp` Which copies the files in the directory to another location (Will give an error if you don't specify both directories)
 
 Try using these in various ways on to try to figure out how they work on the remote computer.
 
