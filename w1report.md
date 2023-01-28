@@ -39,7 +39,14 @@
 
 **Now that you're in test out some commands and look at the results**
 
-As of now you should know `cd` `ls` `pwd` `mkdir` and `cp`, try using these in various ways on to try to figure out how they work on the remote computer.
+As of now you should know 
+* `cd` Which changes the current directory
+* `ls` Which lists the current files and subdirectories of the current directory (It should output the files in your directory)
+* `pwd` Which prints out any applicable text within your directory (It should output out any text files in your directory)
+* `mkdir` Which makes a new directory with the given name
+* `cp` Which copies the files in the directory
+
+Try using these in various ways on to try to figure out how they work on the remote computer.
 
 Now try these same commands on your own computer, do you see any differences?
 
