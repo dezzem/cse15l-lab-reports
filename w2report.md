@@ -1,4 +1,42 @@
 # Part 1
+StringServer code:
+```
+import java.net.URI;
+
+class Handler implements URLHandler {
+    String string = "";
+
+    public String handleRequest(URI url) {
+        if (url.getPath().equals("/")) {
+            return string;
+        } else {
+            if (url.getPath().contains("/add-message")) {
+                String[] parameters = url.getQuery().split("=");
+                if (parameters[0].equals("s")) {
+                    string += parameters[1] + "\n";
+                    return String.format(string);
+                }
+            }
+            return "404 Not Found!";
+        }
+    }
+}
+```
+---
+Examples:
+>Site before any commands
+
+![image](https://user-images.githubusercontent.com/122496316/215677281-cfbb4c86-7224-4cf1-97eb-e4633871e12e.png)
+
+>Site with the add-message command. This calls the handleRequest method where the url is the argument (/add-message?s=hi). The string var is changed by adding "hi\n" to the end.
+
+![image](https://user-images.githubusercontent.com/122496316/215677356-0c519374-8281-42a8-ab6c-c4df004528d4.png)
+
+>Site with the add-message command. This calls the handleRequest method where the url is the argument (/add-message?s=my?name?is?luke). The string var is changed by adding "hi my name is luke\n" to the end.
+
+![image](https://user-images.githubusercontent.com/122496316/215677416-b392a3a8-b628-4ba7-947f-25b4e7b3d11f.png)
+
+
 
 # Part 2
 Failure-inducing input for the reverseInPlace method:
