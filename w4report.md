@@ -25,7 +25,7 @@
 
 5. I then ran the tester
 
-![image](https://user-images.githubusercontent.com/122496316/221768453-b77065c0-e48c-4234-9179-83165640f1f6.png)
+![image](https://user-images.githubusercontent.com/122496316/224891330-efe8cf4b-3928-4bce-936f-b8ae2b51dd32.png)
 
 `<cntr> + <r> javac <enter>`
 
