@@ -25,7 +25,7 @@
 
 5. I then ran the tester
 
-![image](https://user-images.githubusercontent.com/122496316/224891330-efe8cf4b-3928-4bce-936f-b8ae2b51dd32.png)
+![image](https://user-images.githubusercontent.com/122496316/224893287-077d29df-f68a-4f39-ba7f-fc305df41c06.png)
 
 `<cntr> + <r> javac <enter>`
 
@@ -33,20 +33,30 @@
 
 ![image](https://user-images.githubusercontent.com/122496316/221769354-60c5f377-7a97-46be-b968-9367887883af.png)
 
+![image](https://user-images.githubusercontent.com/122496316/224893897-57b7f51e-abc0-44f0-adaf-bb1b7dd0e489.png)
+
 `na <tab> <space> l <tab> . <tab> <enter>`
 
 7. I manually fixed the issues
 
-8. I ran the tester again
+![image](https://user-images.githubusercontent.com/122496316/224894528-9a532f4c-4ccf-469a-98e0-7e020de4c775.png)
 
-![image](https://user-images.githubusercontent.com/122496316/221767768-77d7a990-9daa-4636-9766-e48306c0eb18.png)
+`<down>x42 >x12 <del> 2 <^ + X> Y <enter>`
 
-`<up> <up> <enter>` (command was 2nd to last comand)
+8. I compiled and ran the tester again
+
+![image](https://user-images.githubusercontent.com/122496316/224895061-38da4ec8-2bbc-447e-abd1-a7c7a454ac87.png)
+
+`<up> <up> <enter>` (javac was 2nd to last comand)
+
+`<up> <up> <up> <enter>` (javac was 3rd to last comand)
 
 9. added ListExamples.java and commited the changes
 
-![image](https://user-images.githubusercontent.com/122496316/221767743-01e20aff-2155-42c1-b944-7afeb970ee42.png)
+![image](https://user-images.githubusercontent.com/122496316/224896797-602cd00f-c7fe-4e63-a4ee-accbfbec549b.png)
 
-`git add l <tab> . <tab> <enter>`
+`git add . <enter>`
 
-`git co <tab> <enter>`
+`git commit -m "debugged"`
+
+`git push`
